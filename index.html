@@ -8,40 +8,53 @@
   <title>BanderSnatch.Programming</title>
 </head>
 <body>
-  <div class="container">
-    <h1>Let's see what programming language would suite your personality best!</h1>
-    <h2>Answer the following questions with a letter (A,B, or C) or a number (between 1 and 10) to discover the language that matches you best.</h2>
-    <div>
-      <form id="formOne">
-        <div class="form-group">
-          <label for="time">Do you prefer movies that take place in the: (A)past, (B)present, or (C)future?</label>
-          <input id="time" class="form-control" type="text">
-        </div>
-        <div class="form-group">
-          <label for="empire">Do you prefer to work in (A)groups or as an (B)individual?</label>
-          <input id="empire" class="form-control" type="text">
-        </div>
-        <div class="form-group">
-          <label for="throne">Would you rather purchase a new (A)expensive recliner or a (B)beautiful golden ring?</label>
-          <input id="throne" class="form-control" type="text">
-        </div>
-        <div class="form-group">
-          <label for="sword">Would you rather be a (A)ninja or a (B)pirate?</label>
-          <input id="sword" class="form-control" type="text">
-        </div>
-        <div class="form-group">
-          <label for="scale">On a scale of 1-10, are you more of a (1)partier or (10)responisble leader?</label>
-          <input id="scale" class="form-control" type="text">
-        </div>
+  <div class="container-fluid">
+    <div class="jumbotron">
+      <div class="heading">
+        <h2 class="bg-info">Let's see what programming language would suite your personality best!</h1>
+        <h4 id="subhead">Answer the following questions with a letter (A,B, or C) or a number (between 1 and 10) to discover the language that matches you best.</h2>
+      </div>
+    </div>
+    <form id="formOne">
+      <div class="form-group">
+        <label for="time" class="bg-info">Do you prefer movies that take place in the: (A)past, (B)present, or (C)future?</label>
+        <input id="time" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="empire" class="bg-info">Do you prefer to work in (A)groups or as an (B)individual?</label>
+        <input id="empire" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="throne" class="bg-info">Would you rather purchase a new (A)expensive recliner or a (B)beautiful golden ring?</label>
+        <input id="throne" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="sword" class="bg-info">Would you rather be a (A)ninja or a (B)pirate?</label>
+        <input id="sword" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="scale" class="bg-info">On a scale of 1-10, are you more of a (1)partier or (10)responisble leader?</label>
+        <input id="scale" class="form-control" type="text">
+      </div>
        
 
-        <button type="submit" class="btn">Learn your programming destiny</button>
-      </form>
-    </div>
+      <button type="submit" class="btn">Learn your programming destiny</button>
+    </form>
+  
 
-    <div id="result">
-      <h1><em>THE RESULT!</em></h1>
-      <p>After many algorithmic gymnastics, the great and knowledgable processor has determined that you would be a most suitable</p>
+    <div class="row">
+      <div id="result">
+        <div class="col-md-3">   
+          <img id="resultPic">
+        
+        </div> 
+        <div class="col-md-9">   
+      
+    
+          <h1 id ="resultHeading"><em>THE RESULT!</em></h1>
+          <p>After many algorithmic gymnastics, the great and knowledgable processor has determined that you would be a most suitable<span id="language"></span></p>
+        </div>
+      </div>  
     </div>
   </div>
 </body>
