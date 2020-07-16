@@ -1,4 +1,28 @@
+.container-fluid {
+  background-color: cornsilk;
+}
+
+.jumbotron {
+  background-color:darkorchid;
+}
+
+.heading {
+  background-color: cornsilk;
+  color: darkblue;
+  padding: 20px;
+  
+  border: solid 2px; 
+}
+
+.subhead {
+  color: darkgreen;
+  font-weight: 500;
+}
+
+
 .btn {
+  background-color: cornsilk;
+  color: darkblue;
   display: block;
 }
 
