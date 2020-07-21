@@ -34,3 +34,15 @@
   border: dashed 4px; 
   text-align: center;
 }
+
+p {
+  font-weight: 500;
+  font-style: italic;
+  font-size: larger;
+  color: darkorchid;
+}
+
+#language {
+  font-weight: bolder;
+  color: darkviolet;
+}
