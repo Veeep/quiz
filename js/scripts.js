@@ -7,7 +7,7 @@ $(document).ready(function() {
     const scaleInput = parseInt($("#scale").val());
     
  
-  if (timeInput === "C" && empireInput === "A" && scaleInput >= 9) {
+  if (timeInput === "C" && empireInput === "A" && scaleInput >= 9 && scaleInput <=10) {
     $("#language").text(" Vulcan-style programmer.");
     }
   else if (timeInput === "C" && empireInput === "A" && scaleInput >=5 && scaleInput < 9) {
@@ -19,7 +19,7 @@ $(document).ready(function() {
   else if (timeInput === "C" && empireInput === "A" && scaleInput >= 0 && scaleInput < 2) {
     $("#language").text(" Borg-style programmer.");    
   }
-  else if (timeInput === "C" && empireInput === "B" && scaleInput >= 9) {
+  else if (timeInput === "C" && empireInput === "B" && scaleInput >= 9 && scaleInput <=10) {
     $("#language").text(" Ewok-style programmer.");
     }
   else if (timeInput === "C" && empireInput === "B" && scaleInput >=5 && scaleInput < 9) {
@@ -31,7 +31,7 @@ $(document).ready(function() {
   else if (timeInput === "C" && empireInput === "B" && scaleInput >= 0 && scaleInput < 2) {
     $("#language").text(" Storm Trooper-style programmer.");  
   }
-  else if (timeInput === "B" && swordInput === "A" && scaleInput >= 9) {
+  else if (timeInput === "B" && swordInput === "A" && scaleInput >= 9 && scaleInput <=10) {
     $("#language").text(" TMNT-style programmer like Leo.");
     }
   else if (timeInput === "B" && swordInput === "A" && scaleInput >=5 && scaleInput < 9) {
@@ -43,7 +43,7 @@ $(document).ready(function() {
   else if (timeInput === "B" && swordInput === "A" && scaleInput >= 0 && scaleInput < 2) {
     $("#language").text(" TMNT-style programmer like Michelangelo.");  
   }  
-  else if (timeInput === "B" && swordInput === "B" && scaleInput >= 9) {
+  else if (timeInput === "B" && swordInput === "B" && scaleInput >= 9 && scaleInput <=10) {
     $("#language").text(" HP-style programmer like Dumbledore");
     }
   else if (timeInput === "B" && swordInput === "B" && scaleInput >=5 && scaleInput < 9) {
@@ -55,7 +55,7 @@ $(document).ready(function() {
   else if (timeInput === "B" && swordInput === "B" && scaleInput >= 0 && scaleInput < 2) {
     $("#language").text(" HP-style programmer like Voldemort.");  
   }  
-  else if (timeInput === "A" && throneInput === "A" && scaleInput >= 9) {
+  else if (timeInput === "A" && throneInput === "A" && scaleInput >= 9 && scaleInput <=10) {
     $("#language").text(" Elven-style programmer.");
     }
   else if (timeInput === "A" && throneInput === "A" && scaleInput >=5 && scaleInput < 9) {
@@ -67,7 +67,7 @@ $(document).ready(function() {
   else if (timeInput === "A" && throneInput === "A" && scaleInput >= 0 && scaleInput < 2) {
     $("#language").text(" Wizard-style programmer.");  
   }  
-  else if (timeInput === "A" && throneInput === "B" && scaleInput >= 9) {
+  else if (timeInput === "A" && throneInput === "B" && scaleInput >= 9 && scaleInput <=10) {
     $("#language").text(" Stark-style programmer");
     }
   else if (timeInput === "A" && throneInput === "B" && scaleInput >=5 && scaleInput < 9) {
