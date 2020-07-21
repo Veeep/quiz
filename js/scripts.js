@@ -1,9 +1,9 @@
 $(document).ready(function() {
   $("#formOne").submit(function(event) {
-    const timeInput = $("input#time").val();
-    const empireInput = $("input#empire").val();
-    const throneInput = $("input#throne").val();
-    const swordInput = $("input#sword").val();
+    const timeInput = $("input#time").val().toUpperCase();
+    const empireInput = $("input#empire").val().toUpperCase();
+    const throneInput = $("input#throne").val().toUpperCase();
+    const swordInput = $("input#sword").val().toUpperCase();
     const scaleInput = parseInt($("#scale").val());
     
  
