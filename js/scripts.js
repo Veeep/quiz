@@ -1,9 +1,3 @@
-// Business logic:
-
-
-
-// User interface logic:
-
 $(document).ready(function() {
   $("#formOne").submit(function(event) {
     const timeInput = $("input#time").val();
@@ -86,10 +80,10 @@ $(document).ready(function() {
     $("#language").text(" Targaryen-style programmer.");  
   }
   
-    
-    $("#result").show();
-
-
+  else {
+    alert("You did not insert properly, try harder!");
+  }
+$("#result").show();
     event.preventDefault();
   });
 });
