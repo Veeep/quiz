@@ -27,6 +27,14 @@
 }
 
 #result {
+  
   display: none;
+
 }
 
+#resultHeading {
+  color: darkblue;
+  padding: 20px;
+  border: dashed 4px; 
+  text-align: center;
+}
